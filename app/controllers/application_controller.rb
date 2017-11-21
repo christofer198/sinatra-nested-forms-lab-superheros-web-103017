@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
 
     post "/" do
-      params
+      params[:name]
     end
 
 end
